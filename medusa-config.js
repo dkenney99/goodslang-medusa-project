@@ -66,7 +66,7 @@ const modules = {
     options: {
       redisUrl: REDIS_URL
     }
-  }
+  },
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule["projectConfig"]} */
@@ -77,8 +77,7 @@ const projectConfig = {
   database_url: DATABASE_URL,
   admin_cors: ADMIN_CORS,
   // Uncomment the following lines to enable REDIS
-  redis_url: REDIS_URL,
-  worker_mode: process.env.MEDUSA_WORKER_MODE,
+  redis_url: REDIS_URL
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule} */
