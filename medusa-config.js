@@ -64,10 +64,9 @@ const modules = {
   cacheService: {
     resolve: "@medusajs/cache-redis",
     options: {
-      redisUrl: REDIS_URL,
-      ttl: 30,
+      redisUrl: REDIS_URL
     }
-  },
+  }
 };
 
 /** @type {import('@medusajs/medusa').ConfigModule["projectConfig"]} */
